@@ -1,0 +1,10 @@
+<form class="article" id="new_article" action="/articles" method="post">
+  <div class='d-flex align-items-center'>
+    <label for="article_title" class='me-2'>Title</label>
+    <input type="text" name="article[title]" id="article_title "value='<%= @article.title %>'>
+  </div>
+  <div class='mt-5'>
+    <textarea name="" id="" cols="90" rows="10"><%= @article.content %></textarea>
+  </div>
+  <input type="submit" name="commit">
+</form>

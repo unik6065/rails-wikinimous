@@ -1,0 +1,9 @@
+.card_container {
+  width: 900px;
+  margin: 25px auto;
+}
+
+.hoverable_card:hover {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #D8D8D8;
+}
